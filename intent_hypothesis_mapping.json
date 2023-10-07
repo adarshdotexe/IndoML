@@ -1,6 +1,6 @@
 {
-    "accept reservations": "This example is about asking for reservations.",
-    "account blocked": "This example is about an account being blocked.",
+    "accept reservations": "This sentence is about making a reservation.",
+    "account blocked": "This sentence express concerns or questions about an account being blocked or suspended",
     "alarm": "This example is related to setting an alarm.",
     "application status": "This example is inquiring about the application status.",
     "apr": "This example is about the APR (Annual Percentage Rate) of a financial product.",
@@ -130,7 +130,7 @@
     "traffic": "This example is about checking traffic conditions.",
     "transactions": "This example is about financial transactions and records.",
     "transfer": "This example is about making a transfer.",
-    "translate": "This example is about translation.",
+    "translate": "You want me to translate something.",
     "travel alert": "This example is about a travel alert.",
     "travel notification": "This example is about a travel notification.",
     "travel suggestion": "This example is about travel suggestions.",
