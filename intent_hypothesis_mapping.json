@@ -45,7 +45,7 @@
     "flip coin": "This example is about flipping a coin.",
     "food last": "This example is about checking the last food item.",
     "freeze account": "This example is about freezing an account.",
-    "fun fact": "This example is about sharing a fun fact.",
+    "fun fact": "This is a fun fact.",
     "gas": "This example is about checking the gas level.",
     "gas type": "This example is about checking the type of gas.",
     "goodbye": "This example is about saying goodbye.",
@@ -75,7 +75,7 @@
     "new card": "This example is about getting a new card.",
     "next holiday": "This example is about the next holiday.",
     "next song": "This example is about the next song.",
-    "no": "This example is expressing a negative response.",
+    "no": "This example contains a no.",
     "nutrition info": "This example is about nutrition information.",
     "oil change how": "This example is about how to change oil.",
     "oil change when": "This example is about when to change oil.",
@@ -148,5 +148,5 @@
     "whisper mode": "This example is about activating whisper mode.",
     "who do you work for": "This example is asking who someone works for.",
     "who made you": "This example is asking who created someone.",
-    "yes": "This example is expressing agreement."
+    "yes": "This example contains a yes."
 }
