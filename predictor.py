@@ -45,3 +45,28 @@ for epoch in range(100):
         optimizer.step()
     print(epoch, loss.item())
 
+# Open massive_test.data and get the utterances
+with open('massive_test.data', 'r') as data_file:
+    data = [json.loads(line) for line in data_file]
+
+utt = [item['utt'] for item in data]
+
+# Get embeddings for the utterances
+text_embeddings = transformer.encode(utt)
+
+# Predict the intent for the utterances
+pred = model(torch.tensor(text_embeddings))
+
+# Get the predicted intent
+pred = torch.argmax(pred, dim=1)
+
+# Get the intent from the encoder
+intent = encoder.inverse_transform(pred)
+
+# Write to file
+with open('massive_test.solution', 'w') as outfile:
+    for i in range(1,len(intent)+1):
+        outfile.write(json.dumps({'indoml_id': data[i]['indoml_id']
+                                  , 'intent': intent[i]}) + '\n')
+        print(utt[i])
+        print(intent[i])
