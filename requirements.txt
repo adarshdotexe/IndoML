@@ -1,6 +1,0 @@
-transformers
-torch
-sentencepiece
-accelerate
-datasets
-tqdm
